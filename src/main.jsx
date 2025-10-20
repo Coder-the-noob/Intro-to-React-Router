@@ -69,6 +69,10 @@ let router = createBrowserRouter([
   {
     path: 'app',
     element: <App />
+  },
+  {
+    path: '*',
+    element: <div><h2>404</h2><p>Page Not Found</p></div>
   }
 ]);
 
